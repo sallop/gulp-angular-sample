@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="phonecatApp">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>教会内部と装飾物</title>
+    <script src="js/angular.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="controllers/controllers.js"></script>
+    <link href="css/bootstrap.min.css"
+	  type="text/css" rel="stylesheet"></link>
+    <!--link href="profile.css" type="text/css" rel="stylesheet"></link-->
+    <link rel="stylesheet" type="text/css" href="css/foo.css">
+  </head>
+  <body class="decoration" ng-controller="DecorationListCtrl">
+    <div class="container">
+      <div class="jumbotron">
+	<h1>教会内部と装飾物</h1>
+	<p>カトリック谷山教会の装飾や建物を紹介します</p>
+      </div>
+    </div>
+    <div class="row" ng-repeat="i in [0,1,2]">
+      <div class="col-md-4" ng-repeat="j in [0,1,2]" align="center">
+	<img src={{data[i*3+j].img}} alt={{data[i*3+j].title}}>
+	<h3 align="center">{{data[i*3+j].title}}</h3>
+	<p>{{data[i*3+j].text}}</p>
+      </div>
+    </div>
+  </body>
+</html>

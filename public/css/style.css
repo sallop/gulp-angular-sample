@@ -1,0 +1,188 @@
+body {
+    text-align: center;
+    color: #666666;
+    background-color: #ffffee;
+}
+
+/* img.photo001 { float: left;} */
+
+h1 {
+    font-size: 40px;
+    font-family: "MSPゴシック", Osaka;
+    color: #336633;
+}
+
+h2 {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    color: #99cc00;
+}
+
+span.Taniyama {
+    font-weight: bold;
+    color: #666666;
+}
+
+span.name {
+    font-weight:bold;
+    text-align: right;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    line-height: 150%;
+    background-color: #f7ffcc;
+    border-style: solid;
+    border-width: 7px;
+    border-top-color:#ffff99;
+    border-right-color: green;
+    border-bottom-color: green;
+    border-left-color: #ffff99;
+    padding: 4px;
+
+}
+
+p.counter {
+    border-style: solid;
+    border-width: 3px;
+    align: right;
+}
+
+table {
+    empty-cells: show;
+    border-spacing: 2px;
+}
+
+strong {
+    font-weight: bold;
+    color: crimson;
+    background-color: "#ffff99";
+}
+
+div.shintorenraku {
+    clear: left;
+}
+
+div.copy {
+    background-color: #33cc66;
+    color: white;
+    font-size: smaller;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+a:link {
+    color: #0066ff;
+}
+
+a:visited {
+    color: #00aaff;
+}
+
+a:hover {
+    color: #ff6699;
+}
+
+a:active {
+    color: #008000;
+}
+
+a:mail {
+    text-decoration: none;
+}
+
+a:mail:link {
+    color: #ffffff;
+}
+
+a:mail:hover {
+    color: #ffff00;
+}
+
+a:mail:active {
+    color: #008000;
+}
+
+
+caption {
+    background-color: #b0c4de;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+/* 
+ * add 2.2.2015
+ * author: akitaka shiogai
+*/
+.pentecoste {
+    text-align: center;
+}
+
+
+.container h1 {
+    color: navy;
+    text-align: center;
+}
+
+.container table {
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information th {
+    color: black;
+    text-align: center;
+}
+
+.information td {
+    color: black;
+    text-align: center;
+}
+
+.information h1 {
+    font-size: large;
+    color: black;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 100%;
+    color: green;
+    text-align: left;
+}
+
+.information h3 {
+    font-size: 100%;
+    color: green;
+    text-align: left;
+}
+
+.information a {
+    font-size: 80%;
+    color: blue;
+    text-align: left;
+}
+
+h1.container {
+    text-align: center;
+    color: blue;
+}
+
+.gridStyle {
+    border: 1px solid rgb(212, 212, 212);
+    width: 400px;
+    height: 300px;
+}

@@ -1,0 +1,52 @@
+body {
+    width:95%;
+    color:#666666;
+    background-color:#ffffee;
+    background-image:url("../img/back007.jpg");
+    background-repeat:repeat-x;
+    padding-top:50px;
+}
+
+p.setumei {
+    width:71%;
+    text-align:left;
+    text-indent:1em;
+    line-height:1.5;
+}
+
+em {
+    font-size:0.7em; 
+}
+
+table {
+    width:70%;
+}
+caption {
+    caption-side:bottom;
+}
+thead {
+    background-color:#99ee66;
+}
+
+hr {
+    height:4px;
+    background-color:#33cc66;
+    width:90%;
+    margin-top:10px;
+}
+
+a:link {
+    color:#0066ff
+}
+
+a:visited {
+    color:#0066ff
+}
+
+a:hover	{
+    color:#ff6699
+}
+
+a:active {
+    color:#008000
+}

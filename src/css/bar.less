@@ -1,0 +1,114 @@
+@base-color: #ffffee;
+@dominant-color: #666666;
+@accent-color: red;
+@assort-color: #336633;
+@light-blue : #0068B7;
+
+@font-size1: 40px;
+@font-size2: 20px;
+@font-size3: 10px;
+
+@body-align: center;
+@base-align: center;
+@element-align: left;
+
+body {
+    margin-top: 30px;
+    text-align: @body-align;
+    background-color: @base-color;
+    background-image:url("../img/back007.jpg");
+    color: @dominant-color;
+}
+
+.school body, table {
+    background-color: @base-color;
+    color: @dominant-color;
+}
+
+h1 {
+    font-size: @font-size1;
+    font-family: "MSPゴシック", Osaka;
+    color: @assort-color;
+}
+
+h2 {
+    margin-top: @font-size2;
+    color: @dominant-color;
+    text-align: @base-align;
+}
+
+h3 {
+    color: @dominant-color;
+    text-align: @base-align;
+    font-size: @font-size3;
+}
+
+.margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bordered {
+    border-style: solid;
+    border-width: 7px;
+    padding: 4px;
+    background-color: #f7ffcc;
+    border-top-color: #ffff99;
+    border-bottom-color: green;
+    border-right-color: green;
+    border-left-color: #fff99;
+}
+
+p {
+    width: 60%;
+    line-height: 150%;
+    .margin;
+    .bordered;
+}
+
+.information table, td, th {
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px @dominant-color solid;
+    border-collapse: collapse;
+    rules: all;
+}
+/*
+.information td, th {
+    color: @dominant-color;
+    border: 2px @dominant-color;
+    text-align: center;
+}
+*/
+.information h1 {
+    font-size: @font-size1;
+    color: @accent-color;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: @font-size2;
+    color: @assort-color;
+    text-align: left;
+}
+
+.information h3 {
+    font-size: @font-size3;
+    color: @assort-color;
+    text-align: left;
+}
+
+.information a {
+    font-size: 80%;
+    color: blue;
+    text-align: left;
+}
+
+.mass p {
+    background-color: transparent;
+}
+
+

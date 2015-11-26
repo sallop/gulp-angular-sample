@@ -1,0 +1,99 @@
+body {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #ffffee;
+  background-image: url("../img/back007.jpg");
+  color: #666666;
+}
+.school body,
+table {
+  background-color: #ffffee;
+  color: #666666;
+}
+h1 {
+  font-size: 40px;
+  font-family: "MSPゴシック", Osaka;
+  color: #336633;
+}
+h2 {
+  margin-top: 20px;
+  color: #666666;
+  text-align: center;
+}
+h3 {
+  color: #666666;
+  text-align: center;
+  font-size: 10px;
+}
+.margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bordered {
+  border-style: solid;
+  border-width: 7px;
+  padding: 4px;
+  background-color: #f7ffcc;
+  border-top-color: #ffff99;
+  border-bottom-color: green;
+  border-right-color: green;
+  border-left-color: #fff99;
+}
+p {
+  width: 60%;
+  line-height: 150%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 7px;
+  padding: 4px;
+  background-color: #f7ffcc;
+  border-top-color: #ffff99;
+  border-bottom-color: green;
+  border-right-color: green;
+  border-left-color: #fff99;
+}
+.information table,
+td,
+th {
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px #666666 solid;
+  border-collapse: collapse;
+  rules: all;
+}
+/*
+.information td, th {
+    color: @dominant-color;
+    border: 2px @dominant-color;
+    text-align: center;
+}
+*/
+.information h1 {
+  font-size: 40px;
+  color: red;
+  text-align: center;
+}
+.information h2 {
+  font-size: 20px;
+  color: #336633;
+  text-align: left;
+}
+.information h3 {
+  font-size: 10px;
+  color: #336633;
+  text-align: left;
+}
+.information a {
+  font-size: 80%;
+  color: blue;
+  text-align: left;
+}
+.mass p {
+  background-color: transparent;
+}

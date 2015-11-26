@@ -1,0 +1,467 @@
+a button {
+  color: white;
+  background-color: #336633;
+}
+a:link {
+  color: #0066ff;
+}
+a:visited {
+  color: #0066ff;
+}
+a:hover {
+  color: #ff6699;
+}
+a:active {
+  color: #008800;
+}
+/*
+.generate-header(4);
+.generate-header(@n, @i: 1) when (@i =< @n) {
+    h@{i} {
+	font-size: (100%/@i);
+    }
+    .generate-header(@n, @i + 1);
+}
+*/
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 14px;
+}
+body.index {
+  margin-top: 20px;
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index strong {
+  color: red;
+}
+body.schedule {
+  margin-top: 20px;
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.schedule table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.schedule p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.schedule strong {
+  color: red;
+}
+body.choir {
+  margin-top: 20px;
+  background-image: url("../jpg/back002.jpg");
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.choir table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.choir p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.choir strong {
+  color: red;
+}
+body.handbell {
+  margin-top: 20px;
+  background-image: url("../jpg/back002.jpg");
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.handbell table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.handbell p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.handbell strong {
+  color: red;
+}
+body.legiomariae {
+  margin-top: 20px;
+  background-image: url("../jpg/back003.jpg");
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.legiomariae table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.legiomariae p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.legiomariae strong {
+  color: red;
+}
+body.school {
+  margin-top: 20px;
+  background-image: url("../jpg/back004.jpg");
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.school table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.school p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.school strong {
+  color: red;
+}
+body.mass {
+  margin-top: 20px;
+  background-image: url("../jpg/back007.jpg");
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mass table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mass p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mass strong {
+  color: red;
+}
+body.event {
+  margin-top: 20px;
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.event table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.event p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.event strong {
+  color: red;
+}
+body.update {
+  margin-top: 20px;
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.update table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.update p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.update strong {
+  color: red;
+}
+body.decoration {
+  margin-top: 20px;
+  background-image: url("../jpg/back001.jpg");
+  background-color: #ffffee;
+  color: #666666;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.decoration table,
+thead,
+th,
+td {
+  background-color: #ffffee;
+  color: #666666;
+  border: 1px solid #336633;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.decoration p {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.decoration strong {
+  color: red;
+}
+.borderline {
+  border: 6px inset #336633;
+  background-color: #ffffee;
+  padding: 4px;
+}
+.position {
+  text-align: center;
+  align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index,
+img {
+  text-align: center;
+  align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+.information table {
+  border: 6px inset #336633;
+  background-color: #ffffee;
+  padding: 4px;
+  text-align: center;
+  align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+.information,
+thead th {
+  text-align: center;
+}
+.bible,
+table {
+  text-align: center;
+  align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+.decoration img {
+  border: 6px inset #336633;
+  background-color: #ffffee;
+  padding: 4px;
+  text-align: center;
+  align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+.decoration jumbotron {
+  background-color: #ffffee;
+  color: #666666;
+}
+.decoration p {
+  text-align: left;
+}
+.school p {
+  border: 6px inset #336633;
+  background-color: #ffffee;
+  padding: 4px;
+  text-align: center;
+  align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+.school p.title {
+  width: 80%;
+  text-align: left;
+  text-indent: 1em;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.school strong {
+  color: red;
+}
+.school img.organ {
+  align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+.school h1 {
+  color: #336633;
+  font-size: 2.5em;
+}
+.school table {
+  width: 70%;
+}
+.school tr th {
+  width: 140px;
+  text-align: center;
+}
+.school caption {
+  color: crimson;
+  font-weight: bold;
+}
+.school a:link {
+  color: #0066ff;
+}
+.school a:visited {
+  color: #0066ff;
+}
+.school a:hover {
+  color: #ff6699;
+}
+.school a:active {
+  color: #008000;
+}
+.handbell h1 {
+  text-align: center;
+  color: #336633;
+}
+.handbell p {
+  text-align: left;
+}
+.handbell img {
+  left-margin: auto;
+  right-margin: auto;
+}

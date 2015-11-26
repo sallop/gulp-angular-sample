@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="phonecatApp">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>ペンテコステ</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="js/angular.js"></script>
+    <!--script src="bower_components/ng-grid/build/ng-grid.js"></script-->
+    <script src="controllers/controllers.js"></script>
+  </head>
+
+  <body ng-controller="PentecostListCtrl">
+    <div class="pentecoste">
+      <p class="title">
+	<img src="jpg/pentetitle.jpg" alt="ペンテコステ・タイトル">
+      </p>
+
+      <div class="setumei" align="center">
+	<ul>
+	  <li>毎月一日に定期発行する谷山教会の情報誌です。最新号はNo.257（2011年2月1日現在)</li>
+	  <li>構成はA4判4ページのカラー印刷で、発行部数は250。</li>
+	  <li>第1面は主任司祭の「巻頭言」。</li>
+	  <li>2面3面は「今月の聖人から」「Taniyama NEWS」「カトリック教会の歴史」等の読み物中心。</li>
+	  <li>第4面は発行月の「祝日と教会行事の予定表」です。</li>
+	  <li>小教区向けの予定の変更や追加は、その都度トップページで知らせます。</li>
+	  <li>バックナンバーは6ヶ月分ずつまとめてあります。ご覧になるセルをクリックしてお読み下さい。</li>
+	  <li>一部工事中のところがあります。出来るだけ早く完成させて、ご覧に入れたいと思います。</li>
+	</ul>
+
+	Search:<input ng-model="query">
+	<table>
+	  <tr ng-repeat="datum in data | filter:query">
+	    <td><a href={{datum.file}}>{{datum.text}}</a></td>
+	  </tr>
+	</table>
+
+	<!--div class="gridStyle" ng-grid="gridOptions">
+	</div-->
+      </div>
+  </body>
+</html>

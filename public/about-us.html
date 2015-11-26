@@ -1,0 +1,54 @@
+<html ng-app="profile">
+  <head>
+  	<meta charset="utf8">
+    <title>プロフィール</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/profile.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body ng-controller="ProfileListCtrl">
+    
+    <div align="center">
+      <img src="jpg/taniyamatitle.jpg">
+      <br/>
+      <p align="left">
+	<h4>
+	  <a href="redemptoris.html">レデンプトール修道会</a>
+	  鹿児島準管区本部教会として<br/>
+	  1964年現在地に建設され,聖霊に捧げられました。<br/>
+	  詳しくは、
+	  <a href="about-us.html#history">下段年表</a>
+	  をご覧下さい。
+	</h4>
+      </p>
+      
+      <div id="contact_table" class="contact_table" align="center">
+	<table class="contact_information" border="1" cellspacing="0">
+	  <caption>住所・連絡先</caption>
+	  <tr ng-repeat="data in contact_information">
+	    <td>{{data.key}}</td>
+	    <td>{{data.value}}</td>
+	  </tr>
+	</table>
+      </div>
+
+
+      <table id="history" border="1" cellspacing="0">
+	<caption>年表的沿革</caption>
+	<tr ng-repeat="history in histories">
+	  <th>{{history.year}}</th>
+	  <td>{{history.event}}</td>
+	</tr>
+      </table>
+    </div>
+
+    <div align="center">
+      <a href="#top">▲TOP</a>
+      <hr>
+      <a href="index.htm"> 聖アルフォンソ・ファミリー</a>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="controllers/profile_controller.js"></script>
+  </body>
+</html>

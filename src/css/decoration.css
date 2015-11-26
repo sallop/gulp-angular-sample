@@ -1,0 +1,18 @@
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+/* base-color     #351de2 */
+/* dominant-color #5d49e9 */
+/* accent-color   #8576ef */
+/* assort-color   #ada3f5 */
+/* #d6d1fa */
+
+body {
+    color: #5d49e9;
+    background-color: #d6d1fa;
+}
+
+img {
+    border: 7px solid #8576ef;
+}

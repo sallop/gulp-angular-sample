@@ -1,0 +1,20 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-minify-html": "^1.0.4",
+	"gulp-minify-css": "*",
+	"gulp-uglify": "*",
+	"gulp-jshint": "*",
+	"gulp-usemin": "*",
+	"gulp-replace": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

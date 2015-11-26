@@ -1,0 +1,49 @@
+<!doctype html>
+<html ng-app="DecorationApp">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>教会内部と装飾物</title>
+
+    <!--script src="bower_components/jquery/dist/jquery.min.js"></script-->
+    
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css"
+	  type="text/css" rel="stylesheet"></link>
+    <link rel="stylesheet" type="text/css" href="css/decoration.css">
+  </head>
+  <body class="decoration" ng-controller="DecorationController">
+    <div class="container">
+      <div class="jumbotron">
+	<h1>教会内部と装飾物</h1>
+	<p>カトリック谷山教会の装飾や建物を紹介します</p>
+      </div>
+    </div>
+
+    <div ng-controller="DecorationController">
+      <script type="text/ng-template" id="myModalContent.html">
+	<div class="modal-title">
+	  <h3 class="modal-title">{{selected.item.title}}</h3>
+	</div>
+	<div class="modal-body">
+	  <img ng-src="{{ selected.item.img }}"></img>
+	  <br/>
+	  <b>{{selected.item.text}}</b>
+	</div>
+	<div class="modal-footer">
+	  <button class="btn btn-primary" ng-click="ok()">OK</button>
+	  <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+	</div>
+      </script>
+
+      <div class="row" ng-repeat="i in [0,1,2]">
+	<div class="col-md-4" ng-repeat="j in [0,1,2]" align="center">
+	  <img ng-src="{{items[i*3+j].img}}" alt="{{items[i*3+j].title}}"
+	       ng-click="open(items[i*3+j])">
+	  <h3 align="center">{{items[i*3+j].title}}</h3>
+	</div>
+      </div>
+    </div>
+    <script src="bower_components/angularjs/angular.js"></script>
+    <script src="bower_components/angular-ui-bootstrap/dist/ui-bootstrap-tpls-0.12.1.min.js"></script>
+    <script src="controllers/DecorationController.js"></script>
+  </body>
+</html>
