@@ -1,0 +1,89 @@
+body {
+  color: "333333";
+  background-color: #ffffee;
+  background-image: url("../img/back001.jpg");
+  scrollbar-base-color: #006666;
+  scrollbar-track-color: #66cc66;
+  scrollbar-arrow-color: #ffffff;
+}
+h2 {
+  font-size: 0.8em;
+}
+th {
+  padding: 10px;
+  text-align: left;
+  background-color: #006666;
+  color: #ffffff;
+}
+td {
+  padding: 10px;
+}
+table.head1 {
+  width: 80%;
+  color: 006666;
+  background-color: #ccff88;
+  margin-bottom: 20px;
+}
+th.th1 {
+  width: 80px;
+}
+td.td1 {
+  line-height: 170%;
+}
+hr {
+  height: 4px;
+  background-color: #33cc66;
+  width: 90%;
+  margin-top: 5px;
+}
+a:link {
+  color: #0066ff;
+}
+a:visited {
+  color: #0066ff;
+}
+a:hover {
+  color: #ff6699;
+}
+a:active {
+  color: #008000;
+}
+form div {
+  margin-bottom: 15px;
+}
+form {
+  margin-left: 10%;
+}
+input {
+  border-style: ridge;
+  border-width: 5px;
+  border-color: #ccff88;
+}
+textarea {
+  border-style: ridge;
+  border-width: 5px;
+  border-color: #ccff88;
+}
+input.send {
+  border-style: outset;
+  color: #800000;
+  background-color: #66cc66;
+}
+span {
+  font-size: 12px;
+  color: crimson;
+}
+a:link {
+  color: #0066ff;
+}
+a:visited {
+  color: #0066ff;
+}
+a:hover {
+  color: #ff6699;
+}
+a:active {
+  color: #008000;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJveC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxPQUFNLFFBQU47RUFDQSx5QkFBQTtFQUNBLHNCQUFxQixxQkFBckI7RUFDQSw2QkFBQTtFQUNBLDhCQUFBO0VBQ0EsOEJBQUE7O0FBR0o7RUFDSSxnQkFBQTs7QUFHSjtFQUNJLGFBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0VBQ0EsY0FBQTs7QUFHSjtFQUNJLGFBQUE7O0FBR0osS0FBSztFQUNELFVBQUE7RUFDQSxhQUFBO0VBQ0EseUJBQUE7RUFDQSxtQkFBQTs7QUFHSixFQUFFO0VBQ0UsV0FBQTs7QUFHSixFQUFFO0VBQ0UsaUJBQUE7O0FBR0o7RUFDSSxXQUFBO0VBQ0EseUJBQUE7RUFDQSxVQUFBO0VBQ0EsZUFBQTs7QUFHSixDQUFDO0VBQU8sY0FBQTs7QUFDUixDQUFDO0VBQVUsY0FBQTs7QUFDWCxDQUFDO0VBQU8sY0FBQTs7QUFDUixDQUFDO0VBQVEsY0FBQTs7QUFFVCxJQUFLO0VBQU0sbUJBQUE7O0FBQ1g7RUFBTyxnQkFBQTs7QUFFUDtFQUNJLG1CQUFBO0VBQ0EsaUJBQUE7RUFDQSxxQkFBQTs7QUFFSjtFQUNJLG1CQUFBO0VBQ0EsaUJBQUE7RUFDQSxxQkFBQTs7QUFFSixLQUFLO0VBQ0Qsb0JBQUE7RUFDQSxjQUFBO0VBQ0EseUJBQUE7O0FBR0o7RUFDSSxlQUFBO0VBQ0EsY0FBQTs7QUFHSixDQUFDO0VBQ0csY0FBQTs7QUFFSixDQUFDO0VBQ0csY0FBQTs7QUFHSixDQUFDO0VBQ0csY0FBQTs7QUFHSixDQUFDO0VBQ0csY0FBQSIsImZpbGUiOiJib3guY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gICAgY29sb3I6XCIzMzMzMzNcIjtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZWU7XG4gICAgYmFja2dyb3VuZC1pbWFnZTp1cmwoXCIuLi9pbWcvYmFjazAwMS5qcGdcIik7XG4gICAgc2Nyb2xsYmFyLWJhc2UtY29sb3I6IzAwNjY2NjtcbiAgICBzY3JvbGxiYXItdHJhY2stY29sb3I6IzY2Y2M2NjtcbiAgICBzY3JvbGxiYXItYXJyb3ctY29sb3I6I2ZmZmZmZjtcbn1cblxuaDIge1xuICAgIGZvbnQtc2l6ZTowLjhlbTtcbn1cblxudGgge1xuICAgIHBhZGRpbmc6MTBweDtcbiAgICB0ZXh0LWFsaWduOmxlZnQ7XG4gICAgYmFja2dyb3VuZC1jb2xvcjojMDA2NjY2O1xuICAgIGNvbG9yOiNmZmZmZmY7XG59XG5cbnRkIHtcbiAgICBwYWRkaW5nOjEwcHhcbn1cblxudGFibGUuaGVhZDEge1xuICAgIHdpZHRoOjgwJTtcbiAgICBjb2xvcjowMDY2NjY7XG4gICAgYmFja2dyb3VuZC1jb2xvcjojY2NmZjg4O1xuICAgIG1hcmdpbi1ib3R0b206MjBweFxufVxuXG50aC50aDF7XG4gICAgd2lkdGg6ODBweDtcbn1cblxudGQudGQxIHtcbiAgICBsaW5lLWhlaWdodDoxNzAlXG59XG5cbmhyIHtcbiAgICBoZWlnaHQ6NHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6IzMzY2M2NjtcbiAgICB3aWR0aDo5MCU7XG4gICAgbWFyZ2luLXRvcDo1cHhcbn1cblxuYTpsaW5reyBjb2xvcjojMDA2NmZmOyB9XG5hOnZpc2l0ZWR7IGNvbG9yOiMwMDY2ZmY7IH1cbmE6aG92ZXJ7Y29sb3I6I2ZmNjY5OTt9XG5hOmFjdGl2ZXtjb2xvcjojMDA4MDAwO31cblxuZm9ybSBkaXYgeyBtYXJnaW4tYm90dG9tOjE1cHg7IH1cbmZvcm0geyBtYXJnaW4tbGVmdDoxMCU7IH1cblxuaW5wdXQge1xuICAgIGJvcmRlci1zdHlsZTpyaWRnZTtcbiAgICBib3JkZXItd2lkdGg6NXB4O1xuICAgIGJvcmRlci1jb2xvcjojY2NmZjg4O1xufVxudGV4dGFyZWEge1xuICAgIGJvcmRlci1zdHlsZTpyaWRnZTtcbiAgICBib3JkZXItd2lkdGg6NXB4O1xuICAgIGJvcmRlci1jb2xvcjojY2NmZjg4XG59XG5pbnB1dC5zZW5kIHtcbiAgICBib3JkZXItc3R5bGU6b3V0c2V0O1xuICAgIGNvbG9yOiM4MDAwMDA7XG4gICAgYmFja2dyb3VuZC1jb2xvcjojNjZjYzY2XG59XG5cbnNwYW4ge1xuICAgIGZvbnQtc2l6ZToxMnB4O1xuICAgIGNvbG9yOmNyaW1zb247XG59XG5cbmE6bGlua3tcbiAgICBjb2xvcjojMDA2NmZmO1xufVxuYTp2aXNpdGVke1xuICAgIGNvbG9yOiMwMDY2ZmY7XG59XG5cbmE6aG92ZXJ7XG4gICAgY29sb3I6I2ZmNjY5OTtcbn1cblxuYTphY3RpdmV7XG4gICAgY29sb3I6IzAwODAwMDtcbn0iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */

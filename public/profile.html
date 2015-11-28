@@ -1,0 +1,76 @@
+<html ng-app="profile">
+  <head>
+    <title>プロフィール</title>
+    <script src="../bower_components/angularjs/angular.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="controllers/profile_controller.js"></script>
+    <link href="css/bootstrap.min.css"
+	  type="text/css" rel="stylesheet"/>
+    <link href="css/profile.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body ng-controller="ProfileListCtrl">
+    
+    <div align="center">
+      <p class="kantou">
+	<em>
+	  <strong>
+	    レデンプトール修道会の創立者
+	    聖アルフォンソについて
+	  </strong>
+	  <br/>
+	  （Catholic Encyclopedia より抄訳）
+	</em>
+	<img class="photo" src="jpg/Alfonso.jpg" alt="聖アルフォンソ"/>
+      </p>
+
+      <p class="kantou">
+	暫くして、正確にはどれ程たったかは分らないが、答えが出た。
+	1723年8月28日、この若い弁護士は、不治の病に苦しむ人々の病院を見舞って、
+	優しい慈善の働きをしていたが、突然、不思議な光に包まれている自分を見た。
+	建物が施錠されたようにして動かず、内なる声が彼に告げた、
+	「俗世界を捨てなさい、そして汝自信を我に与えよ」。
+	これが二度繰り返された。アルフォンソは病院を出て、
+	”罪びとの救い”という教会に行き、
+	聖母像の前に剣を置いて聖職者になる決意を厳粛に表明し、
+	更に修練者として一身をささげることをオラトリオ修道会に誓った。
+	しかし、彼はさまざまな試練が、彼の前に横たわることを知っていた。
+	彼の父は、息子のために計画した結婚が二回もうまくゆかなかったことで
+	前々から機嫌が悪かったし、その上アルフォンソが
+	今の仕事を疎かにしていることにも腹を立てていた。
+	従って、彼が俗世間から退くことには、
+	（父が）猛烈に反対することは十分予想されたが ‥ そのとおりであった。
+	二か月にわたって、脅迫めいたことがあり、
+	アルフォンソはそれに耐え忍ばなければならなかった。
+	最後にようやく父は妥協案を出して、アルフォンソが聖職者になることを認めたが、
+	それは修道会に入ることは許さない、家に住まうことが条件であった。
+	彼は、修道会の上司、トマス・パガノ神父の忠告を受けて、その条件を呑んだ。
+	このようにして彼は自由を得て、
+	彼の真の仕事である新しい宗教集団の形成に踏み出したのであった。
+	（第五章終り、つづく）Apr. 9, 2007
+      </p>
+
+      <img src="jpg/taniyamatitle.jpg"/>
+      <br/>
+      <p align="left">
+	レデンプトール修道会鹿児島準管区本部教会として、
+	1964年現在地に建設され、聖霊に捧げられました。<br/>
+	詳しくは、<a href="profile.htm#history">下段年表</a>をご覧下さい。
+      </p>
+      
+      <table id="history" border="1" cellspacing="0">
+	<caption>年表的沿革</caption>
+	<tr ng-repeat="history in histories">
+	  <th>{{history.year}}</th>
+	  <td>{{history.event}}</td>
+	</tr>
+      </table>
+    </div>
+
+    <div align="center">
+      <a href="#top">▲TOP</a>
+      <hr>
+      <a href="index.html"> 聖アルフォンソ・ファミリー</a>
+    </div>
+    
+  </body>
+</html>

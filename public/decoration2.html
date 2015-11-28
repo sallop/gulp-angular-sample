@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="DecorationApp">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>教会内部と装飾物</title>
+    <script src="bower_components/angularjs/angular.js"></script>
+    <!--script src="bower_components/jquery/dist/jquery.min.js"></script-->
+    <script src="bower_components/angular-ui-bootstrap/dist/ui-bootstrap-tpls-0.12.1.min.js"></script>
+    <script src="controllers/DecorationController.js"></script>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css"
+	  type="text/css" rel="stylesheet"></link>
+    <link rel="stylesheet" type="text/css" href="css/decoration.css">
+  </head>
+  <body class="decoration" ng-controller="DecorationController">
+    <div class="container">
+      <div class="jumbotron">
+	<h1>教会内部と装飾物</h1>
+	<p>カトリック谷山教会の装飾や建物を紹介します</p>
+      </div>
+    </div>
+
+    <div ng-controller="DecorationController">
+      <carousel interval="myInterval">
+	<slide ng-repeat="slide in slides" active="slide.active">
+          <img ng-src="{{slide.img}}" style="margin:auto;" height="420" width="360">
+          <div class="carousel-caption">
+	    <h4>Slide {{$index}}</h4>
+	    <p>{{slide.title}}</p>
+	    <p>{{slide.text}}</p>
+          </div>
+	</slide>
+      </carousel>
+    </div>
+  </body>
+</html>

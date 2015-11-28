@@ -5,13 +5,21 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp-minify-html": "^1.0.4",
-	"gulp-minify-css": "*",
-	"gulp-uglify": "*",
-	"gulp-jshint": "*",
-	"gulp-usemin": "*",
-	"gulp-replace": "*"
+    "gulp-minify-css": "*",
+    "gulp-uglify": "*",
+    "gulp-jshint": "*",
+    "gulp-usemin": "*",
+    "gulp-replace": "*"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-html-replace": "^1.5.5",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "jshint-stylish": "^2.1.0",
+    "node-sass": "^3.4.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

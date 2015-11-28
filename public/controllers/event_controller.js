@@ -9,49 +9,49 @@ eventApp.controller('EventCtrl', function($scope, $http){
   //    "DOW"  :"Sun",
   //    "begin":"10:00",
   //    "end"  :"11:00",
-  //    "content":["åˆå”±å›£ç·´ç¿’","choir.html"],
-  //    "remarks":["å ´æ‰€:æ•™ä¼šè–å ‚","decoration.html"]
+  //    "content":["‡¥’c—ûK","choir.html"],
+  //    "remarks":["êŠ:‹³‰ï¹“°","decoration.html"]
   //  },
   //  {
   //    "DOW"  :"Tue",
   //    "begin":"10:00",
   //    "end"  :"",
-  //    "content":["ãƒ­ã‚¶ãƒªã‚ªã®ç¥ˆã‚Š",""],
+  //    "content":["ƒƒUƒŠƒI‚Ì‹F‚è",""],
   //    "remarks":["",""]
   //  },
   //  {
   //    "DOW"  :"Wed",
   //    "begin":"19:30",
   //    "end"  :"",
-  //    "content":["è–æ›¸å‹‰å¼·ä¼š","bible.html"],
-  //    "remarks":["ç•³éƒ¨å±‹",""]
+  //    "content":["¹‘•×‹­‰ï","bible.html"],
+  //    "remarks":["ô•”‰®",""]
   //  },
   //  {
   //    "DOW"  :"Thu",
   //    "begin":"09:00",
   //    "end"  :"17:00",
-  //    "content":["è–ä½“ç¤¼æ‹",""],
-  //    "remarks":["èµ¦ã—ã®ç§˜è·¡",""]
+  //    "content":["¹‘Ì—ç”q",""],
+  //    "remarks":["Í‚µ‚Ì”éÕ",""]
   //  },
   //  {
   //    "DOW"  :"Thu",
   //    "begin":"10:00",
   //    "end"  :"11:30",
-  //    "content":["ãƒ¬ã‚¸ã‚ªãƒ»ãƒãƒªã‚¨",""],
+  //    "content":["ƒŒƒWƒIEƒ}ƒŠƒG",""],
   //    "remarks":["",""]
   //  },
   //  {
   //    "DOW"  :"Fri",
   //    "begin":"20:00",
   //    "end"  :"",
-  //    "content":["å¬å‘½ã®ãƒ­ã‚¶ãƒªã‚ª",""],
+  //    "content":["¢–½‚ÌƒƒUƒŠƒI",""],
   //    "remarks":["",""]
   //  },
   //  {
   //    "DOW"  :"Sat",
   //    "begin":"14:30",
   //    "end"  :"16:00",
-  //    "content":["æ•™ä¼šå­¦æ ¡","school.html"],
+  //    "content":["‹³‰ïŠwZ","school.html"],
   //    "remarks":["",""]
   //  }
   //];
