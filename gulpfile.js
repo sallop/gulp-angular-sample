@@ -28,11 +28,11 @@ var sources = {
 		'src/*.html'
 	],
 	vendor_css: [
-		//'bower_components/bootstrap/dist/css/bootstrap.css',
+		'bower_components/bootstrap/dist/css/bootstrap.css',
 		//'bower_components/bootstrap/dist/css/bootstrap.min.css',
-		//'bower_components/bootstrap/dist/css/bootstrap-theme.css',
+		'bower_components/bootstrap/dist/css/bootstrap-theme.css',
 		//'bower_components/bootstrap/dist/css/bootstrap-theme.min.css'
-		'bower_components/bootstrap/dist/css/*.css'
+		//'bower_components/bootstrap/dist/css/*.css'
 	],
 	vendor_script: [
 		'bower_components/jquery/dist/jquery.js',
@@ -108,7 +108,8 @@ gulp.task('asset', function(){
 });
 
 gulp.task('fix-paths', function(){
-	gulp.src(sources.html)
+	//gulp.src(sources.html)
+	gulp.src(['src/index.html'])
 		.pipe(replace('../bower_components/bootstrap/dist/', ''))
 		.pipe(replace('../bower_components/angular/', 'js/'))
 		.pipe(replace('../bower_components/jquery/dist/', 'js/'))
@@ -147,10 +148,11 @@ gulp.task('watch', function(){
 	//gulp.watch('src/js/*.js', ['jshint']);
 	//gulp.watch('src/css/*.css', ['build-css']);
 	//gulp.watch('src/*.html', ['gulp-minify-html']);
-	gulp.watch(sources.script, ['jshint']);
-	gulp.watch(sources.controller, ['jshint']);
-	gulp.watch(sources.css, ['build-css']);
-	gulp.watch(sources.html, ['gulp-minify-html']);
+	gulp.watch(sources.less, ['less']);
+	//gulp.watch(sources.script, ['jshint']);
+	//gulp.watch(sources.controller, ['jshint']);
+	//gulp.watch(sources.css, ['build-css']);
+	//gulp.watch(sources.html, ['gulp-minify-html']);
 });
 
 /* jshint task would be here */
@@ -176,14 +178,23 @@ gulp.task('build-js', function(){
 
 //http://www.browsersync.io/docs/gulp/
 // Static Server
+//gulp.task('browser-sync', function(){
+//	browserSync.init({
+//		server: {
+//			baseDir: "./"
+//		}
+//	});
+//});
+
 gulp.task('browser-sync', function(){
 	browserSync.init({
-		server: {
-			baseDir: "./"
-		}
-		// proxy: "yourlocal.dev"
+		//proxy: "yourlocal.dev"
+		proxy: "www.hakobune.com"
 	});
+	//gulp.watch('src/less/*.less', ['less']);
+	gulp.watch('src/*.html').on('change', browserSync.reload);
 });
+
 
 gulp.task('less', function(){
 	//return gulp.src('./less/**/*.less')
@@ -191,7 +202,12 @@ gulp.task('less', function(){
 		.pipe(less({
 				paths: [ path.join(__dirname, 'less', 'includes') ]
 		}))
-		.pipe(minifyCSS())
-		.pipe(gulp.dest('public/css'));
+		//.pipe(minifyCss())
+		//.pipe(replace('img/', 'jpg/'))
+		.pipe(gulp.dest('src/css'));
+		//.pipe(gulp.dest('public/css'));
+	//gulp.watch(sources.less, function(e){
+	//	console.log(e.type);
+	//});
 });
 
